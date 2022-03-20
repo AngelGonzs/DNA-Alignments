@@ -8,12 +8,6 @@ import sys
 open("results.csv",'w')
 
 
-# NOTE: To avoid any string encoding issues we use
-# utf-8-sig. The main cause of this is because during
-# debugging with csv files made in Excel, when drawing
-# the scoring matrix I'd see a "ufeff" character
-# with the utf encoding we avoid this ocurring
-
 
 
 # INITIALIZES A TABLE WITH THE SEQUENCES AND GAP PENALTIES
